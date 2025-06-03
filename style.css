@@ -45,7 +45,7 @@ a{
 .content{
     color: cornflowerblue;
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
     flex-direction: row;
     height: 50vh;
@@ -67,6 +67,7 @@ a{
 .h1{
     font-size: 48px;
     font-weight: 900;
+    width: 1000px;
 }
 
 .hero-text,a{
@@ -76,6 +77,7 @@ a{
 
 .hero-text{
     margin: 10px 0;
+    width: 900px;
 }
 
 .part1 button{
