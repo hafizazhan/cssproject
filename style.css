@@ -5,7 +5,7 @@ html,body{
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height:100vh;
-    background-color: white;
+    background-color: aliceblue;
 }
 
 .part1{
@@ -89,7 +89,7 @@ a{
 }
 
 .part2{
-    background-color: whitesmoke;
+    background-color: aliceblue;
     min-height: 50vh;
     margin: 0 auto;
     display: flex;
@@ -98,7 +98,7 @@ a{
 
 .info-header{
     font-size: 36px;
-    color:aliceblue;
+    color:dodgerblue;
     font-weight: 900;
     display: flex;
     justify-content: center;
@@ -155,7 +155,7 @@ a{
 }
 
 .part4{
-    background-color: whitesmoke;
+    background-color: aliceblue;
     min-height:auto;
     display: flex;
     justify-content: center;
@@ -164,8 +164,7 @@ a{
 }
 
 .CtoA{
-    background-color:dodgerblue;
-    color: white;
+    background-color:rgb(94, 171, 248);
     padding: 40px 80px;
     border-radius: 8px;
     display: flex;
@@ -196,8 +195,7 @@ a{
 }
 
 footer{
-    background-color: wheat;
-    color: black;
+    background-color:rgb(94, 171, 248);
     display: flex;
     height: 70px;
     justify-content: center;
