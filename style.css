@@ -1,0 +1,206 @@
+html,body{
+    margin: 0;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    height:100vh;
+    background-color: white;
+}
+
+.part1{
+    min-height: 50vh;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: dodgerblue;
+    padding: 8px 0;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    display: flex;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.content{
+    color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 50vh;
+    gap: 50px;
+}
+
+.content img{
+    max-width: 100%;
+    height: auto;
+    flex-shrink: 1;
+}
+
+.hero{
+    text-align: left;
+    max-width: 500px;
+    width: 100%;
+}
+
+.h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text,a{
+    font-size: 18px;
+    color: black;
+}
+
+.hero-text{
+    margin: 10px 0;
+}
+
+.part1 button{
+    background-color: darkblue;
+    color:white;
+    width: 100px;
+    padding: 6px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.part2{
+    background-color: whitesmoke;
+    min-height: 50vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-header{
+    font-size: 36px;
+    color:aliceblue;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.info-box{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 1000px;
+    gap: 32px;
+}
+
+.txt{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.box{
+    border: 3px dodgerblue solid;
+    border-radius: 8px;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: auto;
+    width:100%;
+    flex: 1;
+}
+
+.part3{
+    background-color:aliceblue;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    display: flex;
+    font-size: 36px;
+    font-weight: lighter;
+    color:black;
+    max-width: 700px;
+    font-style: italic;
+}
+
+.author{
+    font-weight: 700;
+    text-align: end;
+}
+
+.part4{
+    background-color: whitesmoke;
+    min-height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.CtoA{
+    background-color:dodgerblue;
+    color: white;
+    padding: 40px 80px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.text1{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.text2{
+    font-size: 16px;
+    font-weight: 800px;
+}
+
+.teleport button{
+    background-color: darkblue;
+    color: white;
+    width: 100px;
+    padding: 6px;
+    border-radius: 8px;
+    border-color: darkblue;
+    cursor: pointer;
+}
+
+footer{
+    background-color: wheat;
+    color: black;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
